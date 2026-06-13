@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
+import { FaGithub, FaLinkedin} from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
 function Sidebar() {
 
@@ -180,7 +180,7 @@ function Sidebar() {
    <div className="mt-auto pt-20 flex items-center gap-5">
 
   <a
-    href="https://github.com/TU-USUARIO"
+    href="https://github.com/kanekisql/andre-cristobal-portfolio"
     target="_blank"
     rel="noreferrer"
     aria-label="GitHub"
@@ -196,7 +196,7 @@ function Sidebar() {
   </a>
 
   <a
-    href="https://linkedin.com/in/TU-USUARIO"
+    href="https://www.linkedin.com/in/estheban-andre-malca-cristobal-a082a5416/"
     target="_blank"
     rel="noreferrer"
     aria-label="LinkedIn"
@@ -211,35 +211,21 @@ function Sidebar() {
 <FaLinkedin className="text-[26px]" />
   </a>
 
-  <a
-    href="https://instagram.com/TU-USUARIO"
-    target="_blank"
-    rel="noreferrer"
-    aria-label="Instagram"
-    className="
-      text-slate-500
-      hover:text-teal-300
-      transition-all
-      duration-200
-      hover:-translate-y-[2px]
-    "
-  >
-    <FaInstagram className="text-[26px]" />
-  </a>
+  
 
   <a
-    href="mailto:correo@ejemplo.com"
-    aria-label="Email"
-    className="
-      text-slate-500
-      hover:text-teal-300
-      transition-all
-      duration-200
-      hover:-translate-y-[2px]
-    "
-  >
-    <HiOutlineMail className="text-[26px]" />
-  </a>
+  href="mailto:e.float.mc@gmail.com?subject=Contacto%20desde%20tu%20portafolio"
+  aria-label="Email"
+  className="
+    text-slate-500
+    hover:text-teal-300
+    transition-all
+    duration-200
+    hover:-translate-y-[2px]
+  "
+>
+  <HiOutlineMail className="text-[26px]" />
+</a>
 
 </div>
 
