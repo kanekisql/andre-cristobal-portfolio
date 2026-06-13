@@ -177,8 +177,16 @@ function Sidebar() {
 
           </nav>
 
-   <div className="mt-auto pt-20 flex items-center gap-5">
-
+<div
+  className="
+    mt-10
+    lg:mt-auto
+    lg:pt-20
+    flex
+    items-center
+    gap-5
+  "
+>
   <a
     href="https://github.com/kanekisql/andre-cristobal-portfolio"
     target="_blank"
